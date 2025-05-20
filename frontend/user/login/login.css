@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+}
+/* header */
+.header{
+    text-align: center;
+    padding: 10px;
+    height: 30%;
+    background-color:#15317E;
+}
+.header h1{
+    font-size: 50px;
+    color:#FEF250;
+}
+.header h2{
+    padding: 10px;
+    color:#FAF884;
+    font-style:italic;
+}
+/* login */
+.login{
+    border: 1px solid gray;
+    padding: 100px;
+    text-align: left;
+    margin: 100px;
+    background-color: #EEEEEE;
+}
+button{
+    padding: 10px;
+    margin: 20px;
+    width: 100px;
+    background-color: #2F539B;
+    color: white;
+}
+/* footer */
+ .footer{
+    padding: 10px;
+    height: 30%; 
+    
+}
+ .fcols{
+    float: left;
+    width: 33.33%;
+    color: #2B547E;
+    
+
+ }
+ 
+ .fcon a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #2B547E;
+    
+ }
