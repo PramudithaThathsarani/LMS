@@ -3,6 +3,18 @@ body{
 }
 
 /* header */
+/* subHeader */
+.lognav{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    background-color: #660000;
+    position: sticky;
+    top: 0;
+    height: 50px;
+}
+/* mainHeader */
 .header{
     text-align: center;
     padding: 10px;
@@ -20,28 +32,44 @@ body{
 }
 
 /* login */
+.loginform{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
 .login{
-    border: 1px solid gray;
+    border: 1px solid ;
     padding: 100px;
     text-align: left;
+    box-shadow: 0 0 15px rgba(231, 85, 85, 0.1);
     margin: 100px;
-    background-color: #EEEEEE;
+    background-color:#f1cdca;
+    justify-content: center;
+    border: rgb(196, 12, 12);
 }
-img{
-   
+input[type="text"],
+input[type="password"]{
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    border-color: #f1cdca;
+    padding: 5px;
 }
 button{
     padding: 10px;
     margin: 20px;
     width: 100px;
-    background-color: #2F539B;
+    background-color: #7F4E52;
     color: white;
 }
 .loginform{
     align-items: center;
 }
 /* footer */
- .footer{
+.footer{
     padding: 10px;
     height: 30%; 
     
@@ -49,14 +77,13 @@ button{
  .fcols{
     float: left;
     width: 33.33%;
-    color: #2B547E;
-    
-
+    color: #7F4E52;
  }
- 
+ .aaa{
+   background-color: #E8ADAA;
+ }
  .fcon a{
     text-decoration: none;
     font-size: 15px;
-    color: #2B547E;
-    
+    color: #7F4E52; 
  }
