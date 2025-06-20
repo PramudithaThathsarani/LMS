@@ -6,6 +6,17 @@ body{
     margin:0;
    
 }
+/* Header */
+.lognav{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    background-color: #660000;
+    position: sticky;
+    top: 0;
+    height: 50px;
+}
 
 /*menu*/
 .nav{
@@ -13,7 +24,7 @@ body{
     overflow: auto;
     margin:0;
     padding:0;
-    width:25%;
+    width:20%;
     height:100%;
     background-color: #DCDCDC;
     position:fixed;
@@ -33,6 +44,7 @@ body{
     background-color:#E0E5E5;
     color:#8D918D;
 }
+/* subHeader */
 .header{
     margin-left:25%;
     padding:1px 16px;
